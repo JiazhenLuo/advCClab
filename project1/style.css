@@ -7,14 +7,6 @@
     align-items: center;
 }
 
-.myBackgroundVideo {
-    position: fixed; 
-    width: 100vw; 
-    height: 100vh; 
-    object-fit: cover;
-    z-index: -1;
-}
-
 .background-container {
     position: relative;
     width: 100%;
@@ -38,7 +30,7 @@
     top:0%; 
     left: 3.9%;
     width: 37.2%;
-    z-index: 3;
+    z-index: 999;
 }
 
 #tree2 {
@@ -66,10 +58,326 @@
     width: 100%;
     height: auto;
     opacity: 0;
-    transition: opacity 0.4s ease;
+    transition: 0.3s ease-in;
 }
 
 .tree-button img:hover {
-    opacity: 0.9;
+    opacity: 0.65;
+}
+
+.rainbow {
+    position: relative;
+    left: 20%;
+    top: 80px;
+    width: 20%;
+}
+
+.rainbow img {
+    position: relative;
+    width: 100%; 
+}
+
+.rainbowText img {
+    position: absolute;
+    width: 190%;
+    left: 86%; 
+    top: 1%;
+    z-index: 3;
+}
+
+.sea img {
+    position: absolute;
+    width: 130%;
+    left: 195%;
+    top: 70%;
+    z-index: 1;
+}
+
+.splashText img {
+    position:absolute;
+    left: 220%;
+    top: 83%;
+    width: 90%;
+}
+
+.swimmingRing {
+    position: relative;
+    width: 30%;
+    top: 780px;
+    left: 20%;
+}
+
+.swimmingRing img{
+    position: relative;
+    width: 100%;
+}
+
+.swimmingRingText img{
+    position: absolute;
+    width: 143%;
+    left: -22.3%;
+    top: 20%;
+}
+
+.seaMonster{
+    position: relative;
+    width: 30%;
+    top: 1200px;
+    left: 60%; 
+}
+
+.seaMonster img{
+    position: relative;
+    width: 100%;
+    margin-bottom: 250px;
+}
+
+.seaMonsterText img{
+    position: absolute;
+    width: 150%;
+    left: -135%;    
+    top: 6vh;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.showcase{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 100px;
+}
+
+.showcase video{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100vh;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    z-index: -1;
+}
+
+#myVideo{
+    width: 105%;
+}
+
+.poem{
+    position: fixed;
+    top: 90px;
+    left: 800px;
+    text-align: right;
+    white-space: pre-wrap;
+    line-height: 1.8;
+    z-index: 999;
+}
+
+.poem p{
+    transition: 0.5s ease;
+    animation-direction: reverse;
+    margin-bottom: -120px;
+}
+
+.p1{
+    margin-right: -10px; 
+}
+
+.poem:hover .p1 {
+    letter-spacing: 6px;
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px red;
+}
+
+.poem:hover .p2 {
+    word-spacing: 10px; 
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px red;
+}
+
+.forest img{
+    position: relative;
+    width: 30%;
+    margin-bottom: 780px;
+    left: 200px;
+}
+
+.down img{
+    position: relative;
+    width: 20%;
+    left: 300px;
+    margin-bottom: 800px;
+}
+
+.climbTree img{
+    width: 20%;
+    position:relative;
+    margin-bottom: 900px;
+    left: 1250px;
+    z-index: 1;
+}
+
+.flowers img{
+    position: relative;
+    width: 40%;
+    left: 150px;
+    margin-bottom: 1000px;
+}
+
+.merrygoround img{
+    position: relative;
+    width: 20%;
+    left: 40%;
+    margin-bottom: 700px;
+}
+
+.me img{
+    position: relative;
+    width: 40%;
+    left: 15%;
+    margin-bottom: 300px;
+}
+
+.introduction{
+    position: relative;
+    top: 1300px;
+    text-align: left;
+    white-space: pre-wrap;
+    line-height: 1.8;
+    z-index: 1;
+    color: whitesmoke;
+    width: 100%;
+    height: 2100px;
+    /* border: 4px solid wheat; */
+}
+
+.chinese{
+    position: sticky;
+    width: 30%;
+    top: 100px;
+}
+
+.english{
+    position: sticky;
+    top: 200px;
+    left: 1170px;
+    width: 30%;
+    line-height: 1.4;
+    font-size: 17px;
+}
+
+.myHeadPhoto{
+    position: sticky;
+    top: 180px;
+    /* border: 5px solid blue; */
+    width: 100%;
+}
+
+.myHeadPhoto img{
+    position: sticky;
+    width: 7%;
+    left: 700px;
+    transition: 0.3s ease-in-out;
+
+}
+
+.myHeadPhoto img:hover{
+    filter: blur(8px);
+}
+
+.end{
+    position: fixed;
+    width: 100%;
+}
+
+.end img{
+    position:fixed;
+    width: 100%;
+    top: 0px;
+    object-fit: cover;
+
+}
+.pageThreebackgrounds{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+#house{
+    position: fixed;
+    width: 97%;
+    left: 53px;
+    bottom: -182px;
+    z-index: 3;
+}
+
+#sky{
+    position:fixed;
+    width: 100%;
+    top: -40px;
+    left: -0px;
+    z-index: 1;
+}
+
+#birds{
+    position: fixed;
+    width: 55%;
+    left: 1300px;
+    top: 0px;
+    z-index: 2;
+    transition: all 1.5s ease;
+}
+
+#birds:hover{
+    left: 640px;
+    top: 100px;
+}
+
+.keepintouch{
+    position: relative;
+    width: 20%;
+}
+
+.keepintouch img{
+    position: relative;
+    width: 100%;
+    left: 200%;
+    top: 230px;
+}
+
+.lastpageText{
+    position: relative;
+    width: 500px;
+    left: 120px;
+    text-indent: 0;
+}
+
+.title{
+    position: absolute;
+    font-family: Playfair Display;
+    color: whitesmoke;
+    text-align: left;
+    font-size: 25px;
+}
+
+.cv{
+    top: 40px;
+    position: absolute;
+    color: whitesmoke;
+    text-align: left;
+    font-family: Playfair Display;
+    white-space: pre-wrap;
+    line-height: 1.6;
+    font-size: 19px;
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
 }
 
