@@ -1,0 +1,156 @@
+.textContainer::-webkit-scrollbar {
+    display: none;
+  }
+  * {
+    box-sizing: border-box;
+  }
+
+.content{
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+#textContainer{
+    overflow-y: auto;
+    display: flexbox;
+    flex-direction:column;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: Helvetica;
+    max-width: 600px;
+    height: 100vh;
+    /* border: #4d2db7 10px solid; */
+}
+
+section{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:flex-start;
+    min-height: 100vh;
+}
+
+h2{
+    color: #d2d2d2;
+    font-style: italic;
+    margin-bottom: -30px;
+    font-size: 30px;
+}
+
+h1{
+    font-size: 65px;
+    margin-bottom: 9px;
+}
+
+p1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: #af68ae;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 50px;
+    font-weight: bold;
+    color: #af68ae;
+}
+
+p2{
+    font-size: 20px;
+    line-height: 26px;
+    color: #717171;
+}
+
+#calculator{
+
+    font-family: "Courier Prime", monospace;
+    background-color: #6f4162;
+    max-width: 500px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+#display{
+    font-family: "Courier Prime", monospace;
+    width: 100%;
+    padding: 20px;
+    font-size: 4rem;
+    text-align: left;
+    border: none;
+    background-color: #b25a99;
+    color: #d0ff00;
+}
+
+#keys{
+    font-family: "Courier Prime", monospace;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding: 25px;
+}
+
+button{
+    font-family: "Courier Prime", monospace;
+    width: 100px;
+    height: 100px;
+    border: none;
+    background-color: #D63484;
+    color: #F8F4EC;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #4d2db7;
+}
+
+button:active{
+    background-color: rgb(113, 8, 68);
+}
+
+.operator-btn{
+    background-color: #FF9BD2;
+}
+
+.operator-btn:hover{
+    background-color: #aa4077;
+}
+
+.operator-btn:active{
+    background-color: #8b0707;
+}
+
+.supportHumanArtist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.text{
+    margin-left: 50px;
+
+}
+
+#support{
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+h4{
+    font-size: 65px;
+    margin-bottom: -40px;
+    color: rgb(163, 0, 163);
+}
+
+h5{
+    font-size: 40px;
+    margin-bottom: 9px;
+    color: #b58eca;
+}

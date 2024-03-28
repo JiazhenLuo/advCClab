@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeepFake Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div  class="content">
+        <div id="calculator"> 
+            <input id="display" readonly>
+    
+            <div id="keys">
+                <button onclick="appendToDisplay('+')" class="operator-btn">+</button>
+                <button onclick="appendToDisplay('7')">7</button>
+                <button onclick="appendToDisplay('8')">8</button>
+                <button onclick="appendToDisplay('9')">9</button>
+                <button onclick="appendToDisplay('-')" class="operator-btn">-</button>
+                <button onclick="appendToDisplay('4')">4</button>
+                <button onclick="appendToDisplay('5')">5</button>
+                <button onclick="appendToDisplay('6')">6</button>
+                <button onclick="appendToDisplay('*')" class="operator-btn">*</button>
+                <button onclick="appendToDisplay('1')">1</button>
+                <button onclick="appendToDisplay('2')">2</button>
+                <button onclick="appendToDisplay('3')">3</button>
+                <button onclick="appendToDisplay('/')" class="operator-btn">/</button>
+                <button onclick="appendToDisplay('0')">0</button>
+                <button onclick="appendToDisplay('.')">.</button>
+                <button onclick="calculate()">=</button>
+                <button onclick="clearDisplay()" class="operator-btn">C</button>
+    
+            </div>
+        </div>
+    
+        <div id="textContainer" class="textContainer">
+    
+            <section class="sec-1" data-aos="fade-right" >
+                <h2>
+                    Welcome Back!
+                </h2 >
+                <h1>
+                    DeepfakeGPT
+                </h1>
+                <p1>
+                    I am your AI calculator that can help you solve any math problem. You can ask me anything!
+                </p1>
+            </section>
+    
+            <section class="sec-2">
+                <h3>
+                    Telling fact from fiction is harder than ever.            
+                </h3>
+                <p2>
+                    Although artificial intelligence currently lacks autonomous consciousness, it is continually generating false information and knowledge, including news, misleading humans in various ways. From automatically generating confusing content, deepfaking videos and audios, to tampering with data and producing incorrect information. The AI models themselves cannot even recognize that the information they generate is false. People who overly rely on artificial intelligence are immersed in this false bubble, unaware of their situation.
+                </p2>
+    
+                <br>
+                <p2>
+                    These falsehoods can lead people to unwittingly spread false views on social media, create biases, and even fabricate academic research. Misleading the public's decision-making and cognition can have severe negative impacts on people's knowledge systems and future society.            
+                </p2>
+            </section>
+    
+        </div>
+    </div>
+
+    <div class="supportHumanArtist">
+
+        <img src="Assets/supportHumanArtist.jpg" id="support" alt="">
+
+        <div class="text">
+            <h4>
+                <a href="https://www.instagram.com/supporthumanartists/" target="_blank">#SupportHumanArtist</a>
+            </h4>
+            
+            <h5>
+                Artist is More Important Than AI.
+            </h5>
+        </div>
+
+    </div>
+   
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
