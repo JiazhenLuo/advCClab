@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #FF00E7;
+    margin: 0; 
+}
+
+.imgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgContainer img {
+    width: 20vw;
+    height: auto; 
+}
+
+#code2{
+    margin-left: 50px;
+}
+
+h1{
+    font-family: "Lacquer", system-ui;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 100px;
+    margin-bottom: 80px;
+    margin-top: 0px;
+    color: #17E517;
+    max-width: 400px;
+}

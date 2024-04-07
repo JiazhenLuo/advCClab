@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    position: relative;
+    top: -50px;
+    width: 640px;
+    height: 480px;
+    background-size: cover;
+}
+
+#webcam {
+    width: 100%;
+    height: auto;
+    -webkit-mask: url("Assets/PinkMask.png");
+    -webkit-mask-size: 100%;
+    mix-blend-mode: screen;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #FF00E7;
+}
+
+#Eyes{
+    width: 60%;
+    height: auto;
+}
+
+.text{
+    text-align: center;
+    color: #17E517;
+}
+
+p{
+    font-family: "Lacquer", system-ui;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+    margin-top: -50px;
+}
+
+h1{
+    font-family: "Lacquer", system-ui;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 70px;
+    margin-bottom: 80px;
+    margin-top: -120px;
+}
+
+#seconds{
+    font-family: "Lacquer", system-ui;
+    font-weight: 800;
+    text-align: center;
+    font-style: normal;
+    font-size: 170px;
+    color: rgb(13, 255, 0);
+    position: absolute;
+    top: 24%;
+    left: 44%;
+    opacity: 80%;
+    mix-blend-mode: multiply;
+}

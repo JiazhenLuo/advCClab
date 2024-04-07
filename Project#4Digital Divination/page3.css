@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #890031;
+}
+
+#speechless{
+    width: 23%;
+    height: auto;
+    position: absolute;
+    top: 110px;
+    left: 50%;
+    transform: translate(-50%,50%);
+    margin-bottom: 100px;
+}
+
+
+h1{
+    font-family: "Lacquer", system-ui;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 120px;
+    text-wrap: wrap;
+    margin-top: 150px;
+    color: #FF0000;
+    max-width: 600px;
+    text-align: center;
+}
+
+
